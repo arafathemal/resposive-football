@@ -1,0 +1,83 @@
+/* fonts styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* body styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* header style */
+
+.main-head{
+    background-color: #09097efb;
+    margin-bottom: 50px;
+}
+.title-head{
+  display: flex;
+  
+}
+.text{
+    width: 485px;
+    height: 230px;
+    padding-left:100px;
+    margin-top: 130px;
+}
+
+.h1-color{
+    color:#FFFFFF;
+    font-size:64px;
+}
+.h1-color:hover{
+    color: tomato;
+    transition: 2s linear 0.5s;
+    transform: scale(1.2);
+}
+.button{
+    display: flex;
+    align-items: center;
+    background-color: #E02C6D;
+    width: 168px;
+    color: #FFFFFF;
+    
+}
+.watch-live, .icon{
+    font-size: 16px;
+    padding-left: 20px;
+
+}
+.image img{
+    Width:634px; 
+    height: 438px;
+    margin-top: 150px;
+    padding-right: 100px;
+    margin-bottom: 100px;
+}
+/* main styles */
+.all-player{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.players{
+    background-color: #FFFFFF;
+    width: 330px;
+    height: 456px;
+    box-shadow:10px 10px 40px gray;
+    margin: 15px;
+}
+.player{
+    width: 300px;
+    padding-left: 15px;
+}
+.players-image img{
+    width: 300px;
+}
+.h2-font{
+    font-size: 28px;
+    color: #b11c17;
+    
+}
+.player-info{
+    font-size: 16px;
+    color:#6C6C6C ;
+}
