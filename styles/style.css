@@ -109,3 +109,16 @@ body{
     margin-right: 100px;
 
 }
+/* foooter start */
+.logo-adjust{
+    text-align: center;
+    margin-top: 150px;
+}
+.logo img{
+    width: 483px;
+    height: 110px;
+}
+.online-icon i {
+    padding-right: 20px;
+  
+}
